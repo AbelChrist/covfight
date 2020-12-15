@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #E8F4FF;
+}
+body h1, body h2, body h3 {
+  font-family: "Inter", sans-serif;
+  color: #125F97;
+}
+body h4, body h5, body h6 {
+  color: #303030;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-custom .navbar-brand {
+  color: #125F97;
+}
+.navbar-custom .navbar-brand:hover {
+  color: #125F97;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  color: #6990AD;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link.active {
+  color: #125F97;
+  font-weight: 600;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link:hover {
+  color: #125F97;
+}
+
+section {
+  margin-top: 5.5em;
+}
+
+.bg-custom-primary {
+  background-color: #125F97;
+}
+
+.bg-custom-secondary {
+  background-color: #6990AD;
+}
+
+/*# sourceMappingURL=style.css.map */
