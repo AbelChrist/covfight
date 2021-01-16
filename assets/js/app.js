@@ -28,7 +28,7 @@ function covid19Ind(indonesia) {
 function req(url, func) {
 	const xhr = new XMLHttpRequest();
 
-	xhr.open('POST', url, true)
+	xhr.open('GET', url, true)
 
 	xhr.onreadystatechange = async function() {
 		// if success and status 200 OK
